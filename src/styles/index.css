@@ -9,3 +9,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap");
+
+body {
+  background: black;
+  color: white;
+  font-family: "Big Shoulders Stencil", sans-serif;
+}
+.container {
+  padding: 40px;
+}
+.clockDigit {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    189deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 54%,
+    rgb(255, 153, 0) 100%
+  );
+  min-width: 1em;
+  font-size: 7em;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 2px;
+}
+.clockSeparator {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    189deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 54%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  font-size: 5em;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0px 5px 0px 5px;
+}
