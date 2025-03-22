@@ -46,3 +46,19 @@ body {
   padding: 20px;
   margin: 0px 5px 0px 5px;
 }
+
+.clockImage {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    189deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(121, 9, 9) 54%,
+    rgba(0, 0, 0, 1) 100%
+  );
+
+  border-radius: 15px;
+  padding: 20px;
+  margin: auto 15px auto 0;
+  width: 100px;
+  height: 100px;
+}

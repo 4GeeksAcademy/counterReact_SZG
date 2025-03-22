@@ -1,4 +1,5 @@
 import React from "react";
+import clockImage from "../../img/timer.png";
 
 const SecondsCounter = (props) => {
 
@@ -35,7 +36,7 @@ const SecondsCounter = (props) => {
   ));
 
   //returns the clock formatted
-  return <div className="container d-flex justify-content-center">{hourDigits}<span className="clockSeparator"> : </span>{minuteDigits}<span className="clockSeparator"> : </span>{secondDigits}</div>
+  return <div className="container d-flex justify-content-center"><img className="clockImage" src={clockImage}></img> {hourDigits}<span className="clockSeparator"> : </span>{minuteDigits}<span className="clockSeparator"> : </span>{secondDigits}</div>
 };
 
 export default SecondsCounter;
